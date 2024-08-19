@@ -79,11 +79,6 @@ export function encryptKey(passkey: string) {
 export function decryptKey(passkey: string) {
   return atob(passkey);
 }
-// utils.ts
 
-export function parseStringify<T>(data: T): T {
-  // Convert to JSON string and then parse it back to an object
-  return JSON.parse(JSON.stringify(data));
-}
 
 
