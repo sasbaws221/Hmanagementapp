@@ -6,8 +6,7 @@ import { ID, Query } from "node-appwrite";
 
 import { Appointment } from "@/types/appwrite.types";
 
-// In the file where you use parseStringify
-import { parseStringify } from "../utils";
+
 
 import {
   APPOINTMENT_COLLECTION_ID,
@@ -15,6 +14,9 @@ import {
   databases,
   messaging,
 } from "../appwrite.config";
+
+// In the file where you use parseStringify
+import { parseStringify } from "../utils";
 
 //  CREATE APPOINTMENT
 export const createAppointment = async (
