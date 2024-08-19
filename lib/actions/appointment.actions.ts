@@ -3,19 +3,13 @@
 
 import { revalidatePath } from "next/cache";
 import { ID, Query } from "node-appwrite";
-
 import { Appointment } from "@/types/appwrite.types";
-
-
-
 import {
   APPOINTMENT_COLLECTION_ID,
   DATABASE_ID,
   databases,
   messaging,
 } from "../appwrite.config";
-
-// In the file where you use parseStringify
 import { parseStringify } from "../utils";
 
 //  CREATE APPOINTMENT
