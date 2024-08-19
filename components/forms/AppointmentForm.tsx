@@ -101,6 +101,7 @@ export const AppointmentForm = ({
             cancellationReason: values.cancellationReason,
           },
           type,
+        
         };
 
         const updatedAppointment = await updateAppointment(appointmentToUpdate);
