@@ -12,7 +12,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 [git clone https://github.com/sasbaws221/Hmanagementapp.git]
-cd healthcare
+cd Hmanagementapp
 ```
 
 **Installation**
